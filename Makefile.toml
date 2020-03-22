@@ -1,0 +1,8 @@
+extend = [
+	{ path = "one/Makefile.toml" },
+	{ path = "two/Makefile.toml" },
+	{ path = "three/Makefile.toml" },
+]
+
+[env]
+CARGO_MAKE_EXTEND_WORKSPACE_MAKEFILE = "true"

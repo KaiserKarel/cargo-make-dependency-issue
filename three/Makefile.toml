@@ -1,0 +1,8 @@
+
+
+[tasks.three]
+description = "run three"
+dependencies = ["two"]
+script = [
+	"cargo run -p three",
+]

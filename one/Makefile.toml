@@ -1,0 +1,5 @@
+[tasks.one]
+description = "run one"
+script = [
+	"cargo run -p one",
+]
